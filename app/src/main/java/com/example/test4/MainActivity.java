@@ -64,13 +64,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Sự kiện nhấn nút để mở thư viện hình ảnh
+        // nhấn nút để mở thư viện hình ảnh
         btn_open.setOnClickListener(v -> {
             Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
             pickImageLauncher.launch(intent);
         });
 
-        // Sự kiện nhấn nút để mở camera
+        // nhấn nút để mở camera
         btn_camera.setOnClickListener(v -> {
             if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
                 ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA}, CAMERA_REQUEST_CODE);
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Sự kiện nhấn nút để detect bằng live camera
+        // nhấn nút để detect bằng live camera
         btn_live.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, LiveDetectionActivity.class);
             startActivity(intent);
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    // Phương thức mở camera
+    // mở camera
     private void openCamera() {
         try {
             File photoFile = createImageFile();
