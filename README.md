@@ -16,8 +16,8 @@ The YOLOv10 model has been trained to detect 5 types of tomato leaf diseases:
 
 ## Application Features  
 The application provides two main features:  
-1️⃣ **Disease detection from images**  
-2️⃣ **Real-time disease detection**  
+1️ **Disease detection from images**  
+2️ **Real-time disease detection**  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/aaa7a026-be4a-4dcc-81a2-7a265461c4d8" width="500">
@@ -25,7 +25,7 @@ The application provides two main features:
 
 ---
 
-## 1️⃣ Disease Detection from Images  
+## 1️ Disease Detection from Images  
 Users can either **capture a new image** or **select an existing one from the gallery** for disease detection.
 
 <p align="center">
@@ -41,7 +41,7 @@ Once a disease is detected, the application displays **detailed information abou
 
 ---
 
-## 2️⃣ Real-Time Disease Detection  
+## 2️ Real-Time Disease Detection  
 This feature allows real-time disease detection **directly from the camera**.
 
 <p align="center">
@@ -50,4 +50,4 @@ This feature allows real-time disease detection **directly from the camera**.
 
 ---
 
-🚀 **This application helps farmers easily identify tomato leaf diseases, making crop management more efficient!**  
+ **This application helps farmers easily identify tomato leaf diseases, making crop management more efficient!**  
